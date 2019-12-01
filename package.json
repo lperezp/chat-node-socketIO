@@ -1,0 +1,12 @@
+{
+  "name": "chat-node-socketio",
+  "version": "1.0.0",
+  "description": "Chat project using Node and SocketIO",
+  "main": "index.js",
+  "scripts": {
+    "start" : "nodemon server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "lperezp",
+  "license": "MIT"
+}
