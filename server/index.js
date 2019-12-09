@@ -11,7 +11,7 @@ app.get('/index',(req,res)=>{
 var messages = [{
     'id' : 1,
     'message' : 'Bienvenido al Chat',
-    'nickname' : 'lperezp(Bot)'
+    'nickname' : 'Bot'
 }]
 
 // cargar el modulo de socketIO

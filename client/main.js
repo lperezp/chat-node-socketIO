@@ -14,7 +14,7 @@ function render(data){
                 </div>
                 <div class="msg_cotainer">
                     ${ message.message }
-                    <span class="msg_time">${ message.nickname } - El tiempo irá aquí</span>
+                    <span class="msg_time">${ message.nickname }</span>
                 </div>
             </div>
             
