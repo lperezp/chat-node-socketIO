@@ -14,3 +14,8 @@ Chat project using Node and SocketIO
 ### DevTools
 
 - [Nodemon](https://nodemon.io/) v.2.0.1
+
+## Development server
+
+Run `npm start` for a dev server. Navigate to `http://localhost:2019/`. The app will automatically reload if you change any of the source files.
+
