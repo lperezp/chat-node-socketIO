@@ -1,4 +1,4 @@
-var socket = io.connect('http://192.168.0.106:2019',{'forceNew':true});
+var socket = io.connect('http://localhost:2019',{'forceNew':true});
 
 socket.on('messages',(data)=>{
     console.log(data);

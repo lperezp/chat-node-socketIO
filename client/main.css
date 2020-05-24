@@ -1,85 +1,88 @@
 @import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
-
-:root{
-    --primaryColor : #354358;
-    --bg-message : #687589;
+:root {
+    --primaryColor: #354358;
+    --bg-message: #687589;
     --size: 100px;
 }
 
-*{
+* {
     font-family: 'Comfortaa', cursive;
 }
 
-.bg-chat{
+.bg-chat {
     background-color: var(--primaryColor);
     min-height: 100vh;
 }
 
-.chat{
+.chat {
     margin-top: auto;
     margin-bottom: auto;
 }
 
-.msg_card_body{
+.msg_card_body {
     overflow-y: auto;
+    height: calc(100vh - 200px);
 }
 
-.form-control{
+.form-control {
     background-color: white;
-    border:1px solid var(--primaryColor);
-    color:var(--primaryColor);
+    border: 1px solid var(--primaryColor);
+    color: var(--primaryColor);
 }
 
-.type_msg{
+.type_msg {
     background-color: white;
-    border:1px solid var(--primaryColor);
-    color:var(--primaryColor);
+    border: 1px solid var(--primaryColor);
+    color: var(--primaryColor);
     height: 60px !important;
     overflow-y: auto;
 }
 
-.send_btn{
+.send_btn {
     border-radius: 0 15px 15px 0 !important;
     background-color: var(--primaryColor);
-    border:0 !important;
+    border: 0 !important;
     color: white !important;
     cursor: pointer;
 }
 
-.user_img_msg{
+.user_img_msg {
     height: 40px;
     width: 40px;
     padding: 2px;
     background-color: var(--primaryColor);
 }
 
-
-.msg_cotainer{
-margin-top: auto;
-margin-bottom: auto;
-margin-left: 10px;
-border-radius: 25px;
-background-color: #82ccdd;
-padding: 10px;
-position: relative;
-}
-.msg_cotainer_send{
-margin-top: auto;
-margin-bottom: auto;
-margin-right: 10px;
-border-radius: 25px;
-background-color: #78e08f;
-padding: 10px;
-position: relative;
-}
-.msg_time{
-position: absolute;
-left: 0;
-bottom: -15px;
-color: gray;
-font-size: 10px;
+.msg_cotainer {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10px;
+    border-radius: 25px;
+    background-color: #82ccdd;
+    padding: 10px 40px 10px 15px;
+    position: relative;
+    width: 50%;
+    max-width: max-content;
 }
 
-.msg_head{
-position: relative;
+.msg_cotainer_send {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 10px;
+    border-radius: 25px;
+    background-color: #78e08f;
+    padding: 10px;
+    position: relative;
+}
+
+.msg_time {
+    position: absolute;
+    left: 0;
+    bottom: -15px;
+    color: gray;
+    font-size: 10px;
+}
+
+.msg_head {
+    position: relative;
 }
